@@ -15,7 +15,8 @@ BasicCalc calc = new BasicCalc();
         System.out.println("Enter second number");
         int b= sc.nextInt();
 
-        int result= calc.div(a,b);
+        int result= calc.mod(a, b);
+       // int result = calc.pow(a, b);
         System.out.println("Result: " +result);
 
         sc.close();
