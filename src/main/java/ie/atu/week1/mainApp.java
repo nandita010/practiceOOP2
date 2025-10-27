@@ -9,13 +9,13 @@ public class mainApp {
 
 //Create an instance of Calculator
 BasicCalc calc = new BasicCalc();
-        System.out.println("Simple Calculator- multiply two numbers");
+        System.out.println("Simple Calculator- divide two numbers");
         System.out.println("Enter first number: ");
         int a= sc.nextInt();
         System.out.println("Enter second number");
         int b= sc.nextInt();
 
-        int result=calc.mult(a,b);
+        int result= calc.div(a,b);
         System.out.println("Result: " +result);
 
         sc.close();
